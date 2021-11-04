@@ -45,21 +45,26 @@ nav {
    color: #FE7268;
 }
 .header {
+	font-family: Georgia,Arial,Helvetica,sans-serif;
     padding-left: 8%;
 	margin: 4%;
-	padding-top: 5%;
+	padding-top: 9%;
     color: #090335;
 	font-size: 30px;
+	line-height: 40px;
 }
 #firstp {
+	font-family: Georgia,Arial,Helvetica,sans-serif;
 	font-size: 20px;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     width: 80%;
     padding-left: 12%;
-    color: rgba(0, 0, 0, 0.75);
+    color: #09033598;
+
 }
 .image	{
 	padding-left: 9%;
+	padding-top: 15%;
 }
 
 #button3 {
