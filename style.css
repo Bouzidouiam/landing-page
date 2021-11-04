@@ -1,4 +1,5 @@
 *{
+<<<<<<< Updated upstream
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -121,3 +122,44 @@ section {
 	padding-left: 32%;
 	padding-top: 4%;
 }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color:#FFF4F2 ;
+    width:414px ;
+    height: 1000px;
+    border-top: 4px solid #D8D8D8;
+    border-bottom: 4px solid #D8D8D8 ;
+    padding: 70px  30px 60px;
+}
+.main_content{
+    width: 90%;
+    font-family: Georgia,Arial,Helvetica,sans-serif;
+}
+
+main p{
+    font-size: 25px;
+    color:#090335b7 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    line-height: 40px;
+}
+
+main span{
+    font-size: 30px;
+ 
+    color: #090335;
+
+}
+.main_content img{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+>>>>>>> Stashed changes
