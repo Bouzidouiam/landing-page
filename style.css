@@ -83,10 +83,6 @@ nav {
 	background-color: #FE7268;
 }
 
-	font-size: 100%;
-	padding-left: 32%;
-	padding-top: 4%;
-}
 
 #presentation{
     display: flex;
@@ -121,7 +117,6 @@ nav {
 .presentation img{
     width: 100%;
     height: 100%;
-    margin-top: 60px;  
     margin-top: 60px;
 }
 
