@@ -120,6 +120,7 @@ nav {
     height: 100%;
     margin-top: 60px;
 }
+
 #payment {
 	    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 	    font-size: 28px;
@@ -127,7 +128,7 @@ nav {
 .basic {
     height: 652px;
     border-top: 2px solid #D8D8D8;
-    order-bottom: 2px solid #D8D8D8 ;
+    border-bottom: 2px solid #D8D8D8 ;
 }
 
 .advanced {
