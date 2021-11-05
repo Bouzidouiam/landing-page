@@ -32,6 +32,12 @@ nav {
 .button1 {
 	margin-top: 25px;
 }
+<<<<<<< HEAD
+=======
+.button1 {
+		margin-top: 27%;
+}
+>>>>>>> 38220d118a6a088c85aff32752bb5969e953ee27
 #button1 {
 	width: 100px;
 	padding: 12px;
@@ -59,6 +65,7 @@ nav {
    border-color: #FE7268;
    color: #FE7268;
 }
+<<<<<<< HEAD
 #title1 {
 	font-family: Georgia,Arial,Helvetica,sans-serif;
     padding-left: 8%;
@@ -253,7 +260,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+
 
 #fimg{
 	margin-top: 40px;
