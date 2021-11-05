@@ -16,11 +16,15 @@ nav {
 	justify-content: flex-start;
 	column-gap: 23%;
 }
+#logo {
+	padding-top: 5px;
+	padding-left: 15px;
+}
 .button1 {
-	margin-top: 14%;
+	margin-top: 25px;
 }
 #button1 {
-	width: 85%;
+	width: 100px;
 	padding: 12px;
     border: none;
 	color: white;
@@ -45,7 +49,7 @@ nav {
    border-color: #FE7268;
    color: #FE7268;
 }
-.header {
+.title {
 	font-family: Georgia,Arial,Helvetica,sans-serif;
     padding-left: 8%;
 	margin: 4%;
@@ -124,24 +128,27 @@ nav {
 	    font-size: 28px;
 }
 .basic {
+	width: 414px;
     height: 652px;
     border-top: 2px solid #D8D8D8;
     order-bottom: 2px solid #D8D8D8 ;
 }
 
 .advanced {
+	width: 414px;
 	height: 652px;
 	border-top: 2px solid #D8D8D8;
     border-bottom: 2px solid #D8D8D8 ;
 }
 
 .pro {
+    width: 414px;
 	height: 652px;
 	border-top: 2px solid #D8D8D8;
     border-bottom: 2px solid #D8D8D8 ;
 }
 
-.header3 {
+.title3 {
 	color: #090335;
 	padding: 40px 30px 30px;
 }
@@ -155,9 +162,47 @@ nav {
   font-size: 25px;
   color: #09033598;
 }
-.box
-.subscribe {
-	font-size: 20px;
-	padding-left: 32%;
-	padding-top: 15%;
+#box {
+	margin: auto;
+	width:280px ;
+    height:200px ;
+	border: 2px solid #FFF4F2;
 }
+.box {
+	margin: auto;
+    width:280px ;
+    height:240px ;
+	border: 2px solid #FFF4F2;
+	padding-left: 20px;
+
+}
+
+footer {
+	height: 380px;
+	width: 414px;
+	background-color: #090335;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+	color: white;
+}
+#logo2 {
+	margin-top: 20px;
+	margin-left: 137px;
+}
+.title4 {
+	font-size: 23px;
+	margin: 17px 0 10px;
+}
+.list {
+	display: flex;
+	justify-content: center;
+	column-gap: 140px;
+	line-height: 20px;
+}
+.fourthp {
+	width: 80%;
+	margin-top: 45px;
+	text-align: center;
+	padding-left: 65px;
+}
+
+
