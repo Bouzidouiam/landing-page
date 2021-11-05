@@ -4,6 +4,7 @@
 	text-decoration: none;
 	list-style: none;
     box-sizing: border-box;
+
 }
 body {
 	font-family: arapey;
@@ -14,16 +15,15 @@ nav ul li {
 nav {
 	display:flex;
 	justify-content: space-evenly;
-	column-gap: 26%;
+	column-gap: 2%;
 }
 #logo {
 	padding-top: 5px;
 	padding-left: 15px;
 }
-.button1 {
-	margin-top: 27%;
-}
+
 #button1 {
+	margin-top: 27%;
 	width: 100px;
 	padding: 12px;
     border: none;
@@ -37,20 +37,20 @@ nav {
    color: white;
 }
 }
-.title {
+#title1 {
+	text-align: center;
 	font-family: Georgia,Arial,Helvetica,sans-serif;
     padding-left: 8%;
 	margin: 4%;
 	padding-top: 9%;
     color: #090335;
-	font-size: 30px;
-	line-height: 40px;
+	font-size:170% ;
 }
-#firstp {
+#firstp{
 	font-family: Georgia,Arial,Helvetica,sans-serif;
-	font-size: 20px;
+	font-size: 150%;
+	width: 80%;
     padding-bottom: 5%;
-    width: 80%;
     padding-left: 12%;
     color: #09033598;
 
@@ -80,8 +80,8 @@ nav {
     display: flex;
     justify-content: center;
     background-color:#FFF4F2 ;
-    width: 100%;
-    height: 1000px;
+    width: 100vw;
+    height: auto;
     border-top: 4px solid #D8D8D8;
     border-bottom: 4px solid #D8D8D8 ;
     padding: 70px  40px 60px;
@@ -107,38 +107,40 @@ nav {
 
 }
 .presentation img{
-    width: 100%;
-    height: 100%;
-    margin-top: 60px;
+   
 }
 #payment {
 	    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 	    font-size: 28px;
 }
 .basic {
-	width: 100%;
-    height: 652px;
+	width: 100vw;
+    height: auto;
     border-top: 2px solid #D8D8D8;
     order-bottom: 2px solid #D8D8D8 ;
+    margin-bottom: 20%;
 }
 
 .advanced {
-	width: 100%;
-	height: 652px;
+	width: 100vw;
+	height: auto;
 	border-top: 2px solid #D8D8D8;
-    border-bottom: 2px solid #D8D8D8 ;
+    margin-bottom: 20%;
 }
 
 .pro {
     width: 100%;
-	height: 652px;
+	height: auto;
 	border-top: 2px solid #D8D8D8;
-    border-bottom: 2px solid #D8D8D8 ;
+    margin-bottom: 20%;
 }
 
 .title3 {
+	width: 100%;
+	margin-top: 5%;
 	color: #090335;
 	padding: 40px 30px 30px;
+	text-align: center;
 }
 
 .image3 {
@@ -155,20 +157,20 @@ nav {
 #box {
 	margin: auto;
 	width:280px ;
-    height:200px ;
+    height:auto ;
 	border: 2px solid #FFF4F2;
 }
 .box {
 	margin: auto;
     width:280px ;
-    height:240px ;
+    height:auto ;
 	border: 2px solid #FFF4F2;
 	padding-left: 20px;
 
 }
 
 #article{
-	height: 1300px;
+	height: auto;
 	width:100%;
 	display: flex;
 	flex-direction: column;
@@ -197,9 +199,9 @@ nav {
 
 .article img{
     width: 100%;
-    height: 100%;
-    margin-top: 40px;
-	margin: auto;
+    
+    
+	
 }
 .article{
     width: 90%;
@@ -222,12 +224,14 @@ nav {
 	flex-direction: column;
 	justify-content: space-evenly;
 }
-
+#featured div img{
+	width: 100%;
+}
 #fimg{
 	margin-top: 40px;
 }
 footer {
-	height: 380px;
+	height: auto;
 	width: 100%;
 	background-color: #090335;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
