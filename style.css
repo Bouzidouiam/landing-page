@@ -92,7 +92,7 @@ nav {
     display: flex;
     justify-content: center;
     background-color:#FFF4F2 ;
-    width:414px ;
+    width: 100%;
     height: 1000px;
     border-top: 4px solid #D8D8D8;
     border-bottom: 4px solid #D8D8D8 ;
@@ -128,21 +128,21 @@ nav {
 	    font-size: 28px;
 }
 .basic {
-	width: 414px;
+	width: 100%;
     height: 652px;
     border-top: 2px solid #D8D8D8;
     order-bottom: 2px solid #D8D8D8 ;
 }
 
 .advanced {
-	width: 414px;
+	width: 100%;
 	height: 652px;
 	border-top: 2px solid #D8D8D8;
     border-bottom: 2px solid #D8D8D8 ;
 }
 
 .pro {
-    width: 414px;
+    width: 100%;
 	height: 652px;
 	border-top: 2px solid #D8D8D8;
     border-bottom: 2px solid #D8D8D8 ;
@@ -152,8 +152,10 @@ nav {
 	color: #090335;
 	padding: 40px 30px 30px;
 }
+
 .image3 {
-  margin: 0 70px ;
+  width: 100%;
+  padding-left: 13%;
 }
 .thirdp {
   margin: auto;
@@ -179,7 +181,7 @@ nav {
 
 #article{
 	height: 1300px;
-	width:414px ;
+	width:100%;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -227,6 +229,7 @@ nav {
 }
 
 #featured{
+   padding-left: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -237,7 +240,7 @@ nav {
 }
 footer {
 	height: 380px;
-	width: 414px;
+	width: 100%;
 	background-color: #090335;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 	color: white;
@@ -262,5 +265,4 @@ footer {
 	text-align: center;
 	padding-left: 65px;
 }
-
 
